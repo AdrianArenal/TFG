@@ -1,0 +1,67 @@
+
+/*0001*/
+h3,h2{
+    text-align: center;
+}
+/*0002*/
+section img{
+    margin:0px auto;
+    width:30%;
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(2deg);
+}
+/*0001*/
+footer {
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 80%;
+    width:100%;
+
+}
+/*0003*/
+footer ul li {
+    width: 30%
+}
+/*0002*/
+footer div{
+    display: inline-block;
+}
+/*0100*/
+#infotrab{
+    float:right;
+    padding-right: 1%;
+}
+/*0100*/
+#infopers{
+    padding-left: 1%;
+}
+
+/*0100*/
+#copyright{
+    text-align: center;
+}
+/*0110*/
+#volver:link,#volver:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/*0001*/
+div{
+    text-align: center;
+}
+/*0100*/
+#volver:hover, #volver:active {
+    background-color: red;
+}
