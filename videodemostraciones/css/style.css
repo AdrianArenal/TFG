@@ -10,24 +10,14 @@ body {
     font-family: 'Ultra', sans-serif; 
     margin-bottom: 15%;
     
+    
 }
 /*0001*/
 h1{
+    margin:2%;
     text-align: center;
 }
-/*0001*/
-table{
-    margin: 0 auto;
-}
-/*0001*/
-th{
-    padding-right: 5%;
-    padding-bottom: 2%;
-}
-/*0001*/
-video{
-    width: 500px;
-}
+
 /*0100*/
 #volver:link,#volver:visited {
     background-color: #f44336;
@@ -44,3 +34,29 @@ video{
 #volver:hover, #volver:active {
     background-color: red;
 }
+
+.video-gallery {
+   height: auto;
+
+}
+.video-gallery a{
+    display:inline-block;
+    border: 2px solid;
+    background: white;
+
+}
+.video-gallery a img{
+ padding:5%;
+
+}
+@media (max-width: 991px) {
+    .video-gallery a{
+    margin:1%;
+    }
+}
+@media (max-width: 576px) {
+    .video-gallery a{
+       margin:4%;
+    
+    }
+   }
