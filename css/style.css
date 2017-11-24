@@ -14,6 +14,7 @@ body {
 }
 .subtituloprin{
     font-family: 'Sofia';
+    font-size: 2rem;
     text-align: center;
     text-shadow: 2px 2px white;
 }
@@ -81,6 +82,7 @@ a:link
 }
 /*0001*/
 .titulo{
+    font-size:2rem;
     text-align: center;
     color: black;
 }
