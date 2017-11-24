@@ -23,15 +23,10 @@
     text-align: center;
     padding: 0 2em;
   }
+
   .et-hero-tabs h2,
   .et-slide h2 {
     font-size: 2rem;
-    margin: 0;
-    letter-spacing: 1rem;
-  }
-  .et-hero-tabs h3,
-  .et-slide h3 {
-    font-size: 1rem;
     letter-spacing: 0.3rem;
    
   }
@@ -96,11 +91,7 @@
   @media (min-width: 800px) {
     .et-hero-tabs h2,
     .et-slide h2 {
-      font-size: 3rem;
-    }
-    .et-hero-tabs h3,
-    .et-slide h3 {
-      font-size: 1rem;
+      font-size: 2rem;
     }
   
     .et-hero-tab {

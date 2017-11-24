@@ -6,20 +6,16 @@ body {
     margin-left: 0;
     
 }
-/*0001*/
-h2,h3 {
-        
-        text-align: center;
-        font-size: 300%;
-        text-shadow: 2px 2px white;
-}
 .tituloprin{
     font-family: 'Sofia';
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 2px 2px white;
 }
-/*0001*/
-h3{
-    font-size: 100%;
-    
+.subtituloprin{
+    font-family: 'Sofia';
+    text-align: center;
+    text-shadow: 2px 2px white;
 }
 /*0001*/
 ul {
@@ -71,6 +67,9 @@ a:link
 {   
  text-decoration:none;
 
+}
+.enlace{
+    color:rgb(19, 7, 187);
 } 
 /*0010*/
 .container {
