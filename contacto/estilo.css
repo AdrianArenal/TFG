@@ -1,9 +1,8 @@
 /*0001*/
 .contenido {
-    background: rgb(221, 189, 144);
+    background-image: url("../images/bg.png");
     font-family: 'Ultra', sans-serif; 
     text-align: center;
-    margin-bottom: 12%
 }
 /*0001*/
 body > * {
@@ -17,26 +16,10 @@ h2 {
 form {
     background: white;
     display: inline-block;
-    border-radius: 6px;
-    border: 1px solid black;
+    border: solid black;
+    border-color: black;
+    border-width: 5px 3px 3px 5px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
     padding:2%;
     margin: 5%;
-}
-/*0100*/
-#volver:link,#volver:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid;
-    border-radius: 25px;
-}
-/*0100*/
-#volver:hover, #volver:active {
-    background-color: red;
-}
-#etiquetas{
-    margin-top:3%;
 }

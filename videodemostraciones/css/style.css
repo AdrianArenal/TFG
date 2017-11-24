@@ -1,54 +1,31 @@
 /*0001*/
 body {
-    background: rgba(211,238,234,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(211,238,234,1) 0%, rgba(176,223,216,1) 45%, rgba(163,217,209,1) 62%, rgba(138,206,196,1) 94%, rgba(133,204,194,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(211,238,234,1)), color-stop(45%, rgba(176,223,216,1)), color-stop(62%, rgba(163,217,209,1)), color-stop(94%, rgba(138,206,196,1)), color-stop(100%, rgba(133,204,194,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(211,238,234,1) 0%, rgba(176,223,216,1) 45%, rgba(163,217,209,1) 62%, rgba(138,206,196,1) 94%, rgba(133,204,194,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(211,238,234,1) 0%, rgba(176,223,216,1) 45%, rgba(163,217,209,1) 62%, rgba(138,206,196,1) 94%, rgba(133,204,194,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(211,238,234,1) 0%, rgba(176,223,216,1) 45%, rgba(163,217,209,1) 62%, rgba(138,206,196,1) 94%, rgba(133,204,194,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(211,238,234,1) 0%, rgba(176,223,216,1) 45%, rgba(163,217,209,1) 62%, rgba(138,206,196,1) 94%, rgba(133,204,194,1) 100%);
-    font-family: 'Ultra', sans-serif; 
-    margin-bottom: 15%;
+    background-image: url("../../images/bg.png");    
     
-    
-}
-/*0001*/
-h1{
-    margin:2%;
-    text-align: center;
-}
-
-/*0100*/
-#volver:link,#volver:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid;
-    border-radius: 25px;
-}
-
-/*0100*/
-#volver:hover, #volver:active {
-    background-color: red;
 }
 
 .video-gallery {
+    
    height: auto;
 
 }
 .video-gallery a{
     display:inline-block;
-    border: 2px solid;
-    background: white;
+    
 
 }
 .video-gallery a img{
- padding:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding:5%;
+    border-radius: 25px;
 
 }
+.video-gallery a img:hover{
+    transform: scale(1.2);
+   
+   }
 @media (max-width: 991px) {
     .video-gallery a{
     margin:1%;
